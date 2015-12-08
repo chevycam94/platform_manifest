@@ -1,0 +1,6 @@
+CyanogenMod
+===========
+
+To initialize your local repository:
+
+    repo init -u git://github.com/ChevyCam94/android.git -b marshmallow-TEST
