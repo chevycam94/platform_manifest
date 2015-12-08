@@ -1,6 +1,6 @@
-CyanogenMod
+CyanogenMod / Cortex
 ===========
 
 To initialize your local repository:
 
-    repo init -u git://github.com/ChevyCam94/android.git -b marshmallow-TEST
+    repo init -u git://github.com/ChevyCam94/platform_manifest.git -b marshmallow-TEST
