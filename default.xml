@@ -6,8 +6,11 @@
            revision="refs/tags/android-6.0.1_r3" />
 
   <remote  name="cm"
-           fetch="https://github.com/CyanogenMod"
-           review="review.cyanogenmod.org" />
+           fetch="https://github.com/CyanogenMod" />
+           
+  <remote  name="chevy"
+           fetch="https://github.com/ChevyCam94"
+           revision="marshmallow-TEST" />
 
   <default revision="refs/heads/cm-13.0"
            remote="cm"
@@ -18,7 +21,7 @@
   <project path="build" name="CyanogenMod/android_build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="android" name="CyanogenMod/android" />
+  <project path="manifest" name="platform_manifest" remote="chevy" />
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
