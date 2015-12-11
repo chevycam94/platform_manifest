@@ -10,7 +10,7 @@
 
   <remote  name="chevy"
            fetch="https://github.com/ChevyCam94"
-           revision="marshmallow-TEST" />
+           revision="marshmallow" />
 
   <remote  name="github"
            fetch="https://github.com" />
@@ -21,15 +21,15 @@
            sync-j="3" />
 
 <!-- ChevyCam94 -->
-  <project name="platform_device_huawei_angler" path="device/huawei/angler" remote="chevy" revision="marshmallow" />
-  <project name="platform_vendor_huawei_angler" path="vendor/huawei/angler" remote="chevy" revision="marshmallow" />
+  <project path="manifest" name="platform_manifest" remote="chevy" />
+  <project name="platform_device_huawei_angler" path="device/huawei/angler" remote="chevy" />
+  <project name="platform_vendor_huawei_angler" path="vendor/huawei/angler" remote="chevy" />
   <project name="platform_kernel_huawei_angler" path="kernel/huawei/angler" remote="chevy" revision="cm-13.0" />
 
 <!-- BEGIN CYANOGENMOD -->
   <project path="build" name="CyanogenMod/android_build">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="manifest" name="platform_manifest" remote="chevy" />
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" />
   <project path="art" name="CyanogenMod/android_art" />
   <project path="bionic" name="CyanogenMod/android_bionic" />
