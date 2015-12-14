@@ -12,21 +12,13 @@
            fetch="https://github.com/ChevyCam94"
            revision="marshmallow" />
 
-  <remote  name="bb"
-           fetch="https://bitbucket.org/" />
-
   <remote  name="github"
            fetch="https://github.com" />
 
   <default revision="refs/heads/cm-13.0"
            remote="cm"
            sync-c="true"
-           sync-j="6" />
-
-<!-- UBER toolchain -->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.2" name="UBERTC/arm-linux-androideabi-5.2" remote="bb" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.2" name="UBERTC/arm-eabi-5.2" remote="bb" revision="master" />
-
+           sync-j="3" />
 
 <!-- ChevyCam94 -->
   <project path="build" name="platform_build" remote="chevy" revision="cm-13.0">
@@ -516,6 +508,8 @@
   <project path="prebuilts/eclipse-build-deps" name="platform/prebuilts/eclipse-build-deps" remote="aosp" />
   <project path="prebuilts/eclipse-build-deps-sources" name="platform/prebuilts/eclipse-build-deps-sources" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" remote="aosp" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="aosp" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" remote="aosp" />
