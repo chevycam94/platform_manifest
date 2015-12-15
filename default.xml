@@ -21,7 +21,7 @@
            sync-j="3" />
 
 <!-- ChevyCam94 -->
-  <project path="build" name="platform_build" remote="chevy" revision="cm-13.0">
+  <project path="build" name="platform_build" remote="chevy">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="manifest" name="platform_manifest" remote="chevy" />
