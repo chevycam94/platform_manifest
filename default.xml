@@ -24,6 +24,7 @@
   <project path="build" name="platform_build" remote="chevy">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="art" name="platform_art" remote="chevy" />
   <project path="manifest" name="platform_manifest" remote="chevy" />
   <project name="platform_device_huawei_angler" path="device/huawei/angler" remote="chevy" />
   <project name="platform_vendor_huawei_angler" path="vendor/huawei/angler" remote="chevy" />
@@ -32,7 +33,6 @@
 
 <!-- BEGIN CYANOGENMOD -->
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" />
-  <project path="art" name="CyanogenMod/android_art" />
   <project path="bionic" name="CyanogenMod/android_bionic" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
   <project path="cts" name="CyanogenMod/android_cts" />
