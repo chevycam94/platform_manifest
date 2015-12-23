@@ -30,6 +30,8 @@
   <project name="platform_vendor_huawei_angler" path="vendor/huawei/angler" remote="chevy" />
   <project name="platform_kernel_huawei_angler" path="kernel/huawei/angler" remote="chevy" revision="cm-13.0" />
   <project path="vendor/cm" name="platform_vendor_cm" remote="chevy" />
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="chevy" revision="cm-13.0" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="chevy" revision="cm-13.0" />
 
 <!-- BEGIN CYANOGENMOD -->
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" />
@@ -134,7 +136,6 @@
   <project path="external/zip" name="CyanogenMod/android_external_zip" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" />
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" />
-  <project path="frameworks/base" name="CyanogenMod/android_frameworks_base" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" />
   <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" />
@@ -239,7 +240,6 @@
   <project path="packages/apps/Profiles" name="CyanogenMod/android_packages_apps_Profiles" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
   <project path="packages/apps/Screencast" name="CyanogenMod/android_packages_apps_Screencast" />
-  <project path="packages/apps/Settings" name="CyanogenMod/android_packages_apps_Settings" />
   <project path="packages/apps/SetupWizard" name="CyanogenMod/android_packages_apps_SetupWizard" />
   <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" />
