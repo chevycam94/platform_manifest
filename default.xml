@@ -494,16 +494,10 @@
   <project path="system/gatekeeper" name="platform/system/gatekeeper" remote="aosp" />
 <!-- END AOSP -->
 
-  <!-- UNUSED RIGHT NOW
+<!-- TESTING -->
   <project path="hardware/akm" name="CyanogenMod/android_hardware_akm" />
   <project path="hardware/mediatek" name="platform/hardware/mediatek" remote="aosp" />
   <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" remote="aosp" />
-  <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" remote="aosp" />
-  <project path="hardware/qcom/msm8994" name="platform/hardware/qcom/msm8994" remote="aosp" />
-  <project path="hardware/qcom/msm8x26" name="platform/hardware/qcom/msm8x26" remote="aosp" />
-  <project path="hardware/qcom/msm8x27" name="platform/hardware/qcom/msm8x27" remote="aosp" />
-  <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" remote="aosp" />
-  <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" remote="aosp" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" remote="aosp" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" remote="aosp" />
   <project path="hardware/ti/omap4" name="CyanogenMod/android_hardware_ti_omap4" />
@@ -524,6 +518,14 @@
   <project path="hardware/intel/common/wrs_omxil_core" name="platform/hardware/intel/common/wrs_omxil_core" remote="aosp" />
   <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" remote="aosp" />
   <project path="hardware/intel/sensors" name="platform/hardware/intel/sensors" remote="aosp" />
+
+<!-- UNUSED RIGHT NOW
+  <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" remote="aosp" />
+  <project path="hardware/qcom/msm8994" name="platform/hardware/qcom/msm8994" remote="aosp" />
+  <project path="hardware/qcom/msm8x26" name="platform/hardware/qcom/msm8x26" remote="aosp" />
+  <project path="hardware/qcom/msm8x27" name="platform/hardware/qcom/msm8x27" remote="aosp" />
+  <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" remote="aosp" />
+  <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" remote="aosp" />
   <project path="hardware/samsung_slsi/exynos5" name="CyanogenMod/android_hardware_samsung_slsi_exynos5" />
   <project path="hardware/nvidia/audio" name="CyanogenMod/android_hardware_nvidia_audio" />
   <project path="device/generic/mini-emulator-arm64" name="device/generic/mini-emulator-arm64" remote="aosp" />
