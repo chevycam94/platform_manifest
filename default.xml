@@ -37,7 +37,6 @@
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" />
   <project path="bionic" name="CyanogenMod/android_bionic" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
-  <project path="cts" name="CyanogenMod/android_cts" />
   <project path="development" name="CyanogenMod/android_development" />
   <project path="device/common" name="CyanogenMod/android_device_common" />
   <project path="device/generic/arm64" name="CyanogenMod/android_device_generic_arm64" />
@@ -288,6 +287,7 @@
 <!-- END CYANOGENMOD -->
 
 <!-- BEGIN AOSP -->
+  <project path="cts" name="platform/cts" revision="marshmallow-cts-release" remote="aosp" />
   <project path="dalvik" name="platform/dalvik" remote="aosp" />
   <project path="developers/build" name="platform/developers/build" remote="aosp" />
   <project path="device/generic/qemu" name="device/generic/qemu" remote="aosp" />
